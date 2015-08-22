@@ -1,0 +1,294 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+	background-color: #656569;
+}
+
+/*Center everything*/
+.middle {
+	margin: 0px auto;
+	width: 960px;
+}
+
+/*Header*/
+header {
+	height: 40px;
+	background-color: #656569;
+}
+
+/*Top left buttons (Business, Personal)*/
+.topleftbtns {
+	display: inline-block;
+	float: left;
+	height: 40px;
+}
+
+.btn {
+	display: inline-block;
+	color: #cccccc;
+	padding: 11px 20px;
+	border-right: 2px solid #5c5b60;
+	height: 100%;
+	width: 100px;
+	font-size: 12px;
+	text-align: center;
+	float: left;
+}
+
+.selected {
+	border-left: 2px solid #434247;
+	border-right: 2px solid #2d2d2f;
+	border-bottom: 2px solid #434247;
+	background-color: #4e4d52;
+	background: -webkit-radial-gradient(#656569, #4d4d4f);
+  	background:      -o-radial-gradient(#656569, #4d4d4f);
+  	background:    -moz-radial-gradient(#656569, #4d4d4f);
+  	background:         radial-gradient(#656569, #4d4d4f);
+}
+
+/*Vertical lines outside top left buttons*/
+.lineshadow {
+	display: inline-block;
+	border-left: 2px solid #5a595e;
+	height: 100%;
+	width: 2px;
+	float: left;
+}
+
+.linelight {
+	display: inline-block;
+	border-left: 2px solid #7f7e83;
+	height: 100%;
+	width: 2px;
+	float: right;
+}
+
+/*Email login form*/
+.toprightform {
+	display: inline-block;
+	float: right;
+	margin: 7.5px 0px;
+}
+
+form input {
+	background-color: #29292b;
+	border-radius: 2em;
+	border: none;
+	color: white;
+	padding: 5px 20px;
+	height: 25px;
+}
+
+/*Logo and Action buttons*/
+.actions {
+	background-color: #f5f5f5;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.actions .middle {
+	height: 30px;
+}
+
+/*Logo*/
+.actions img {
+	display: inline-block;
+	float: left;
+	padding-right: 25px;
+	border-right: 2px solid #e8e8e8;
+}
+
+/*Action buttons (Buy, Sell, Manage)*/
+.actions li a {
+	display: inline-block;
+	color: #656569;
+	padding: 8px 10px;
+	border-left: 2px solid white;
+	border-right: 2px solid #e8e8e8;
+	height: 100%;
+	width: 80px;
+	font-size: 12px;
+	text-align: center;
+	float: left;
+}
+
+/*Vertical line on right of Action buttons*/
+.linewhite {
+	display: inline-block;
+	border-left: 2px solid white;
+	height: 100%;
+	width: 2px;
+	float: left;
+}
+
+.mainbgcolor {
+	background: #e8e8e8;
+	height: 400px;
+}
+
+/*Main photo*/
+.main img {
+	float: right;
+}
+
+/*Main text and boxes*/
+.main {
+	height: 400px;
+	padding: 70px 0px;
+	float: left;
+}
+
+/*Call to action*/
+.main h1 {
+	color: #009CDE;
+	font-size: 30px;
+	font-weight: 300;
+	letter-spacing: -0.03em;
+	margin-bottom: 5px;
+}
+
+.main h3 {
+	color: #656569;
+	font-size: 13.5px;
+	font-weight: 300;
+}
+
+/*2 Middle boxes*/
+.mainbox {
+	display: block;
+	border: 2px #d4d4d4 solid;
+	background-color: white;
+	width: 260px;
+	padding: 5px 8px;
+	margin: 15px 0px;
+	text-align: center;
+}
+
+/*Awesome box text*/
+.mainbox div h4 {
+	color: #009CDE;
+	font-size: 11px;
+	font-weight: 700;
+}
+
+/*Awesome box greater than sign*/
+.mainbox h4 sub {
+	color: #656569;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+/*Sign up text*/
+.mainbox h4 {
+	color: #656569;
+	font-size: 11px;
+	font-weight: 700;
+	margin-top: 5px;
+}
+
+/*Click to join button*/
+.joinbtn {
+	border: 2px solid #009CDE;
+	border-radius: 2px;
+	background-color: blue;
+	background: -webkit-linear-gradient(#80b2e0, #009CDE);
+  	background:    -moz-linear-gradient(#80b2e0, #009CDE);
+ 	background:         linear-gradient(#80b2e0, #009CDE);
+	width: 200px;
+	height: 35px;
+	padding: 3px;
+	margin: 10px auto;
+}
+
+.joinbtn a {
+	font-size: 12px;
+	font-weight: 700;
+	color: white;
+}
+
+/*Three Major features*/
+.features {
+	background-color: #f5f5f5;
+	color: #656569;
+}
+
+.features li {
+	display: inline-block;
+	width: 307px;
+	vertical-align: top;
+	margin: 15px 5px;
+}
+
+.features h2 {
+	font-size: 24px;
+	font-weight: 300;
+	letter-spacing: -0.02em;
+	margin: 2px 0px;
+}
+
+.features p {
+	font-size: 11px;
+	line-height: 18px;
+	margin-bottom: 5px;
+}
+
+.features a {
+	color: #009CDE;
+	font-size: 11px;
+	font-weight: 600; 
+}
+
+/*Bottom navigation bar*/
+nav {
+	border-top: 3px solid white;
+	background-color: #f5f5f5;
+}
+
+nav li {
+	display: inline-block;
+	padding: 10px 15px 10px 0px;
+}
+
+nav li a {
+	font-size: 12px;
+	color: #656569;
+}
+
+/*Footer*/
+footer {
+	color: gray;
+	border-top: 3px solid #4d4d4d;
+	background-color: #656569;
+}
+
+footer li {	
+	display: inline-block;
+	padding: 10px 18px 5px 0px;
+}
+
+footer li a {
+	font-size: 11px;
+	color: #cccccc;
+}
+
+footer p {
+	line-height: 16px;
+	font-size: 9px;	
+	color: #cccccc;
+	width: 700px;
+}
